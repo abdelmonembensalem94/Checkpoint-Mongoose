@@ -1,6 +1,8 @@
 const express=require('express')
 const connectDB=require('./config/connectDB')
 const app=express()
+const dotenv = require('dotenv');
+dotenv.config ();
  const port = 3025
  const user= require('./model/user')
 
